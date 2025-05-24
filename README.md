@@ -2,6 +2,8 @@
 
 本项目现已得到中山大学计算机学院支持。我们正在努力增加 feature ，满足本院毕业设计的要求，并争取进一步完善，成为中大官方 $\LaTeX$ 毕设模板。Demo 与源码可在 [releases](https://github.com/SYSU-SCC/sysu-thesis/releases) 页面下载。
 
+**诚挚邀请广大校友加入本项目维护，详见 [#67](https://github.com/SYSU-SCC/sysu-thesis/issues/67)、[#105](https://github.com/SYSU-SCC/sysu-thesis/pull/105)。希望加入 collaborator 团队的同学可联系 [@wu-kan](https://github.com/wu-kan)。**
+
 ## 如何使用
 
 ### overleaf 编辑（在线）
@@ -66,7 +68,7 @@ make pdf
 
 ## 关于展示
 
-答辩展示的样式涉及到不同人的需求，且学校未对格式做要求，因此目前本仓库在 [presentation](./presentation/) 目录下提供了一个最简单的模板供大家学习和上手调整，在 overleaf 中使用时需要点击 `menu`，滑动到下方 `Settings` 的 `Main document` 选择 `presentation/pre.tex`。此处给出 [overleaf 的 Beamer 教程](https://overleaf.com/learn/latex/Beamer)。
+答辩展示的样式涉及到不同人的需求，且学校未对格式做要求，因此目前本仓库提供了一个最简单的模板供大家学习和上手调整，在 overleaf 中使用时需要点击 `menu`，滑动到下方 `Settings` 的 `Main document` 选择 `pre.tex`。此处给出 [overleaf 的 Beamer 教程](https://overleaf.com/learn/latex/Beamer)。
 
 我们欢迎大家自己定制一些符合自己要求的模板，并向我们提交 PR，在下方增加一个指向你的模板的链接作为推荐，参见 [#65](https://github.com/SYSU-SCC/sysu-thesis/issues/65) 。
 

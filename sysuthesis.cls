@@ -59,7 +59,7 @@
 \RequirePackage{tocloft}
 \RequirePackage{wrapfig}
 \RequirePackage{colortbl}
-\RequirePackage{xcolor}
+\RequirePackage[dvipsnames,x11names]{xcolor}
 \RequirePackage{array}
 \RequirePackage{makecell}
 \RequirePackage[bottom, perpage]{footmisc}
@@ -247,7 +247,9 @@
     \begin{titlepage}
         \begin{center}
             \heiti
-            \definecolor{sysugreen}{RGB}{36,86,44}
+%           颜色使用百年校庆定义的绿色，为了适合打印采用CMYK色彩，参考：https://www.sysu.edu.cn/xq/info/1020/4051.htm
+            \definecolor{sysugreen}{cmyk}{0.96,0.53,1,0.25}
+%            \definecolor{sysugreen}{RGB}{0,86,31}
             \ \vspace{0.5cm}
             \includegraphics[width=3cm]{image/template/sysu-logo.pdf} \\
             \vspace{\baselineskip}
